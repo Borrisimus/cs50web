@@ -1,0 +1,75 @@
+ul, .test, .type {
+  text-align: center;
+  font-family: sans-serif; }
+
+body {
+  background-image: url("img/course1.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+h1 {
+  color: gray;
+  text-align: center; }
+
+h3 {
+  color: gray;
+  text-align: center; }
+
+table {
+  align-content: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  border-spacing: 5px; }
+
+th, td {
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center; }
+
+th {
+  background-color: lightgray; }
+
+.test {
+  padding: 10px;
+  margin: 10px;
+  font-family: Verdana, Arial; }
+
+.type {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; }
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  width: 120px; }
+
+button:hover {
+  background-color: orange; }
+
+@media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; } }
+.len {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; }
+
+p {
+  background-color: lightgray;
+  color: black; }
+
+/*# sourceMappingURL=styles1.css.map */
